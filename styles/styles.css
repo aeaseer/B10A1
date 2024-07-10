@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -26,6 +28,7 @@
 .header-top {
     /* border: 2px solid red; */
     color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
     font-weight: 800;
     font-size: 48px;
     line-height: 68px;
@@ -38,6 +41,7 @@
 .header-para {
     /* border: 2px solid red; */
     color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
     font-weight: 400;
     font-size: 18px;
     line-height: 26px;
@@ -51,8 +55,9 @@
 
 .header-btn {
     /* border: 2px solid red; */
+    font-family: Azeret Mono;
     margin: 32px;
-    width: 208px;
+    width: 230px;
     height: 66px;
     background-color: rgb(13, 19, 33);
     color: rgb(255, 255, 255);
@@ -68,6 +73,7 @@
 
 .main-container {
     /* border: 2px solid red; */
+    border-radius: 15px;
     background-color: rgb(247, 247, 247);
     width: 1140px;
     height: 1395px;
@@ -84,6 +90,7 @@
     height: 39px;
     color: rgb(13, 19, 33);
     font-size: 32px;
+    font-family: Azeret Mono;
     font-weight: 800;
     line-height: 37px;
     letter-spacing: 0%;
@@ -98,6 +105,7 @@
     width: 852px;
     height: 48px;
     font-size: 16px;
+    font-family: Azeret Mono;
     font-weight: 400;
     line-height: 26px;
     letter-spacing: 0%;
@@ -129,6 +137,7 @@
     color: rgba(13, 19, 33, 0.7);
     font-size: 24px;
     font-weight: 700;
+    font-family: Azeret Mono;
     line-height: 36px;
     letter-spacing: 0%;
     text-align: left;
@@ -139,6 +148,7 @@
     color: rgba(13, 19, 33, 0.7);
     font-size: 16px;
     font-weight: 400;
+    font-family: Azeret Mono;
     line-height: 26px;
     letter-spacing: 0%;
     text-align: left;
@@ -159,6 +169,7 @@
     color: rgb(13, 19, 33);
     font-size: 20px;
     font-weight: 600;
+    font-family: Azeret Mono;
     line-height: 23px;
     letter-spacing: 0%;
     text-align: center;
@@ -207,6 +218,7 @@
     /* border: 2px solid red; */
     color: rgba(13, 19, 33, 0.7);
     font-size: 24px;
+    font-family: Azeret Mono;
     font-weight: 700;
     line-height: 36px;
     letter-spacing: 0%;
@@ -220,6 +232,7 @@
     /* border: 2px solid red; */
     color: rgba(13, 19, 33, 0.7);
     font-size: 16px;
+    font-family: Azeret Mono;
     font-weight: 400;
     line-height: 26px;
     letter-spacing: 0%;
@@ -237,6 +250,7 @@
 .main-second-button {
     height: 48px;
     width: 150px;
+    font-family: Azeret Mono;
     box-sizing: border-box;
     border: 1px solid rgb(13, 19, 33);
     opacity: 0.7;
@@ -250,4 +264,19 @@
     cursor: pointer;
     margin-left: 50px;
     margin-bottom: 25px;
+}
+
+.my-inspiration{
+border: 2px solid red;
+/* height: 115px; */
+/* width: 852px; */
+margin: 0 auto;
+}
+.youtube-video{
+    /* border: 2px solid red; */
+    height: 550px;
+    width: 1076px;
+    margin: 0 auto;
+    border-radius: 20px;
+    margin-top: 50px;
 }
