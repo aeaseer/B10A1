@@ -28,9 +28,11 @@
     color: rgb(13, 19, 33);
     font-weight: 800;
     font-size: 48px;
+    line-height: 68px;
     margin-top: 32px;
     margin-left: 221px;
     margin-right: 221px;
+
 }
 
 .header-para {
@@ -38,7 +40,8 @@
     color: rgb(13, 19, 33);
     font-weight: 400;
     font-size: 18px;
-    margin-top: 0px;
+    line-height: 26px;
+    /* margin-top: 0px; */
     margin-left: 294px;
     margin-right: 294px;
     height: 52px;
@@ -56,6 +59,70 @@
     font-weight: 600;
     font-size: 20px;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 /* header styling ends here */
+
+
+
+.main-container {
+    /* border: 2px solid red; */
+    background-color: rgb(249, 249, 249);
+    width: 1140px;
+    height: 1395px;
+    margin: 0 auto;
+    margin-top: 74px;
+
+}
+
+.main-header {
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    margin-top: 80px;
+    width: 852px;
+    height: 39px;
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.main-para {
+    /* border: 2px solid red; */
+    color: rgb(13, 19, 33);
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 852px;
+    height: 48px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+.main-content-first{
+    border: 2px solid red;
+    width: 946px;
+    height: 336px;
+    margin: 0 auto;
+    margin-top: 48px;
+}
+.main-partition-first{
+    border: 2px solid red;
+    height: 240px;
+    width: 850px;
+    margin: 48px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.main-partition-first-image{
+    height: 217.01px;
+    width: 259.56px;
+    
+}
